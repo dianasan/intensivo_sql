@@ -183,3 +183,6 @@ ON alugueis.id_filme = filmes.id_filme
 GROUP BY titulo
 ORDER BY num_alugueis DESC;
 
+SELECT 
+	*
+FROM view_resultados;
